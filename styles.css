@@ -62,8 +62,40 @@ form{
     flex-direction: column;
 }
 
+section{
+    display: flex;
+}
+
+.form-left,
+.form-right{
+    display: flex;
+    flex-direction: column;
+
+    margin: 0 0 0 100px;
+}
+
+.form-right{
+    margin: 0 0 0 300px;
+}
+
 label{
     font-size: 3rem;
+    margin: 30px 0 2px 0;
+}
+
+input{
+    font-size: 3rem;
+    padding: 2px 10px 2px 10px;
+    border-radius: 30px;
+    border-color: #E5E7EB;
+}
+
+input:user-invalid{
+    border-color: red;
+}
+
+input:focus{
+    border-color: rgb(47, 149, 244);
 }
 
 .lower{

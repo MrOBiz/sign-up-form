@@ -24,27 +24,30 @@
         <form action="" method="get" id="my-form">
             <h3>Let's do this!</h3>
             <section>
-                <label for="first-name">FIRST NAME</label>
-                <input type="text" id="first-name" name="first-name" value="John">
+                <div class="form-left">
+                    <label for="first-name">FIRST NAME</label>
+                    <input type="text" id="first-name" name="first-name" value="">
 
-                <label for="last-name">LAST NAME</label>
-                <input type="text" id="last-name" name="last-name" value="Doe">
+                    <label for="email">EMAIL</label>
+                    <input type="email" 
+                        id="email" 
+                        name="email" 
+                        value=""  
+                        placeholder="personal@mail.com">
 
-                <label for="email">EMAIL</label>
-                <input type="email" 
-                    id="email" 
-                    name="email" 
-                    value="e@mail.com"  
-                    placeholder="personal@mail.com">
+                    <label for="password">PASSWORD</label>
+                    <input type="password" id="password" name="password" value="">
+                </div>
+                <div class="form-right">
+                    <label for="last-name">LAST NAME</label>
+                    <input type="text" id="last-name" name="last-name" value="">
 
-                <label for="tel-num">PHONE NUMBER</label>
-                <input type="tel" id="tel-num" name="tel-num" value="0000-0000">
+                    <label for="tel-num">PHONE NUMBER</label>
+                    <input type="tel" id="tel-num" name="tel-num" value="">
 
-                <label for="password">PASSWORD</label>
-                <input type="password" id="password" name="password" value="xxxx">
-
-                <label for="confirm-psw">CONFIRM PASSWORD</label>
-                <input type="password" id="confirm-psw" name="confirm-psw" value="xxxx">
+                    <label for="confirm-psw">CONFIRM PASSWORD</label>
+                    <input type="password" id="confirm-psw" name="confirm-psw" value="">
+                </div>
             </section>
         </form>
         <div class="lower">
