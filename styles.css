@@ -4,6 +4,10 @@
     src: url(./oldenburg-regular-webfont.woff2);
 }
 
+body{
+    display: flex;
+}
+
 h1{
     font-family: myFont;
     font-size: 10rem;
@@ -14,7 +18,7 @@ h1{
     position: relative;
     overflow: hidden;
     width: 3000px;
-    height: 3600px;
+    height: 100vh;
     opacity: 0.8;
 }
 
@@ -22,7 +26,7 @@ h1{
     position: absolute;
     width: 3000px;
     height: 600px;
-    top: 1500px;
+    top: 800px;
 
     display: flex;
     justify-content: center;
