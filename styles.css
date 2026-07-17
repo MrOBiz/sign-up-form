@@ -6,7 +6,6 @@
 
 body{
     display: flex;
-    width: 100vh;
 }
 
 h1{
@@ -15,17 +14,26 @@ h1{
     color: rgb(70, 66, 66);
 }
 
+h2{
+    font-size: 5rem;
+    margin: 100px;
+}
+
+.upper{
+    width:50vh;
+}
+
 .side-image{
     position: relative;
     overflow: hidden;
-    width: 3000px;
+    width: 50vw;
     height: 100vh;
     opacity: 0.8;
 }
 
 .logo{
     position: absolute;
-    width: 3000px;
+    width: 50vw;
     height: 600px;
     top: 800px;
 
@@ -38,5 +46,10 @@ h1{
 
 .right{
     height: 100vh;
-    font-size: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
 }
+
+
