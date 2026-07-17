@@ -98,8 +98,8 @@ input:required{
     border-color: aquamarine;
 }
 
-input:focus{
-    border: 2px solid rgb(56, 143, 243);
+input[type="text"]:focus{
+    border: 6px solid rgb(56, 143, 243);
 }
 
 .lower{
