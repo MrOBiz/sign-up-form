@@ -94,8 +94,12 @@ input:user-invalid{
     border-color: red;
 }
 
+input:required{
+    border-color: aquamarine;
+}
+
 input:focus{
-    border-color: rgb(47, 149, 244);
+    border: 2px solid rgb(56, 143, 243);
 }
 
 .lower{
