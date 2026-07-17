@@ -1,0 +1,23 @@
+@font-face {
+    font-family: myFont;
+    src: url(./oldenburg-regular-webfont.woff);
+    src: url(./oldenburg-regular-webfont.woff2);
+}
+
+h1{
+    font-family: myFont;
+    font-size: 10rem;
+}
+
+.side-image{
+    position: relative;
+}
+
+.logo{
+    position: absolute;
+    width: 3966px;
+    top: 1500px;
+
+    background-color: rgb(227, 217, 217);
+    opacity: 0.5;
+}
