@@ -7,17 +7,28 @@
 h1{
     font-family: myFont;
     font-size: 10rem;
+    color: rgb(70, 66, 66);
 }
 
 .side-image{
     position: relative;
+    overflow: hidden;
+    width: 3000px;
+    height: 3600px;
+    opacity: 0.8;
 }
 
 .logo{
     position: absolute;
-    width: 3966px;
+    width: 3000px;
+    height: 600px;
     top: 1500px;
 
-    background-color: rgb(227, 217, 217);
-    opacity: 0.5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: rgba(246, 239, 239, 0.5);
 }
+
+
