@@ -6,6 +6,7 @@
 
 body{
     display: flex;
+    width: 100vh;
 }
 
 h1{
@@ -35,4 +36,7 @@ h1{
     background-color: rgba(246, 239, 239, 0.5);
 }
 
-
+.right{
+    height: 100vh;
+    font-size: 5rem;
+}
